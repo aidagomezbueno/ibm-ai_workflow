@@ -1,0 +1,22 @@
+2024-08-19 17:09:29,050 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-19 17:09:29,050 - [33mPress CTRL+C to quit[0m
+2024-08-19 17:09:29,051 -  * Restarting with stat
+2024-08-19 17:09:30,262 -  * Debugger is active!
+2024-08-19 17:09:30,265 -  * Debugger PIN: 131-288-785
+2024-08-19 17:09:53,860 - Model for Spain retrained and saved as 'saved_models\gradient_boosting_model_Spain_2019-07-25.pkl'
+2024-08-19 17:09:53,860 - 127.0.0.1 - - [19/Aug/2024 17:09:53] "POST /train HTTP/1.1" 200 -
+2024-08-19 17:13:33,982 - 127.0.0.1 - - [19/Aug/2024 17:13:33] "POST /predict HTTP/1.1" 200 -
+2024-08-19 17:13:52,283 - 127.0.0.1 - - [19/Aug/2024 17:13:52] "GET /logfile HTTP/1.1" 200 -
+2024-08-19 17:27:46,386 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-19 17:27:46,386 - [33mPress CTRL+C to quit[0m
+2024-08-19 17:27:46,387 -  * Restarting with stat
+2024-08-19 17:27:47,621 -  * Debugger is active!
+2024-08-19 17:27:47,624 -  * Debugger PIN: 131-288-785
+2024-08-19 17:28:02,201 - Model for Spain retrained and saved as 'saved_models\gradient_boosting_model_Spain_2019-07-25.pkl'
+2024-08-19 17:28:02,202 - 127.0.0.1 - - [19/Aug/2024 17:28:02] "POST /train HTTP/1.1" 200 -
+2024-08-19 17:28:02,207 - 127.0.0.1 - - [19/Aug/2024 17:28:02] "GET /logfile HTTP/1.1" 200 -
+2024-08-19 17:28:02,288 - 127.0.0.1 - - [19/Aug/2024 17:28:02] "POST /predict HTTP/1.1" 200 -
+2024-08-19 17:30:21,690 -  * Detected change in 'C:\\Users\\aidag\\Desktop\\ibm-ai_workflow\\app.py', reloading
+2024-08-19 17:30:21,817 -  * Restarting with stat
