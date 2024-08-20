@@ -58,7 +58,7 @@ $jsonContent = Get-Content -Path "output\Spain.json" -Raw
 Invoke-RestMethod -Uri http://127.0.0.1:5000/train -Method Post -ContentType "application/json" -Body $jsonContent
 ```
 
-<i>Replace `"output\Spain.json"` with the actual path where the json file is stored.
+<i>Replace `"output\Spain.json"` with the actual path where the json file is stored.</i>
 
 This will train a model using the data provided in the JSON file and save it under `saved_models/`.
 
@@ -78,7 +78,7 @@ $jsonContent = '{
 Invoke-RestMethod -Uri http://127.0.0.1:5000/predict -Method Post -ContentType "application/json" -Body $jsonContent
 ```
 
-<i>Replace `"Spain"` with the country you want to predict revenue for and `"2019-08-25"` with the target date you want to predict.
+<i>Replace `"Spain"` with the country you want to predict revenue for and `"2019-08-25"` with the target date you want to predict.</i>
 
 ### 3. **/logfile**: Retrieve the Application Log
 
