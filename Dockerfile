@@ -1,8 +1,16 @@
-# Use an official Miniconda3 runtime as a parent image
+# Use an official Python runtime as a parent image
 FROM continuumio/miniconda3:latest
 
 # Set the working directory in the container
 WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libatlas-base-dev \
+    libpq-dev \
+    gfortran \
+    && rm -rf /var/lib/apt/lists/*
 
 # Copy the current directory contents into the container at /app
 COPY . /app
