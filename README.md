@@ -43,6 +43,28 @@ Run the Docker container:
 docker run -d -p 5000:5000 --name ibm-ai-container ibm-ai_workflow
 ```
 
+### 3. Stop the Docker Container
+
+Once you are done with the application, you may want to stop the Docker container to free up system resources.
+
+To stop the container:
+
+```bash
+docker stop ibm-ai-container
+```
+
+If you also want to remove the container to free up disk space:
+
+```bash
+docker rm ibm-ai-container
+```
+
+**Why Stop the Container?**
+
+- **Resource Management**: Running containers consume system resources (CPU, memory). Stopping the container when it's not in use will free up these resources.
+- **Security**: If you're running sensitive applications, stopping the container can prevent unauthorized access.
+- **Disk Space**: Containers can take up significant disk space. Removing unused containers can help maintain free space on your system.
+
 ## Available Endpoints
 
 ### 1. **/train**: Train a New Model
