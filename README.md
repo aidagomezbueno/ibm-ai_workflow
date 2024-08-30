@@ -25,7 +25,7 @@ This project provides a workflow for training and predicting revenue data using 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ibm-ai-workflow.git
+git clone https://github.com/aidagomezbueno/ibm-ai-workflow.git
 cd ibm-ai-workflow
 ```
 
